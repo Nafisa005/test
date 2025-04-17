@@ -4,60 +4,647 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mataverse</title>
-    <link rel="icon" href="./imgs/Rectangle 70.png">
-    <link rel="stylesheet" href="./css/style.css">
+
+    <meta name="description" content="Sotics - лучший помшник по починке телефон">
+    <meta property="og:image" content="./images/foto/g1-shutterbug.jpg">
+    <meta property="og:title" content="Sotics">
+    <meta property="og:description" content="Sotics best of the best servis for fix your phone in Russia">
+    <meta name="keywords" content="мобилка">
+    <meta name="keywords" content="ремонт">
+
+    <title>Sotics</title>
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="/your-path-to-uicons/css/uicons-[your-style].css" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <main>
-        <div class="container_of_header">
-            <header>
-                <div class="left0">
-                    <p>MetaV</p>
-                </div>
-                <div class="right0">
-                    <nav>
-                        <ul>
-                            <li><a href="">Home</a></li>
-                            <li><a href="">Resource</a></li>
-                            <li><a href="">Pricing</a></li>
-                            <li><a href="">About Us</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </header>
+    <div class="parallax-layer">
+        <img src="./images/hero-bg.jpg" alt="">
+    </div>
+    <header class="s-header">
+        <div class="header-logo">
+            <a href="#0" class="site-logo">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
         </div>
-
-        <section class="sec1">
-            <div class="left1">
-                <h1>Explore the future of the <span>Metaverse</span></h1>
-                <p>Let's explore and create your experience with metaverse.</p>
-                <div class="but">
-                    <button class="but1">Get Started</button>
-                    <button class="but2">Explore Now</button>
+        <nav class="header-nav">
+            <a class="header-nav__close" href="#0">
+                <span class="material-symbols-outlined">close</span>
+            </a>
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                <ul class="header-nav__list">
+                    <li>
+                        <a class="smoothscroll" href="#home">Главная</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#about">О нас</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#services">Преимущества</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#works">Услуги</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#clients">Отзывы</a>
+                    </li>
+                    <li>
+                        <a class="smoothscroll" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+                <p>
+                    Мы гарантируем качественный ремонт для всех моделей устройств. <a href="#0">Независимо </a>от того,
+                    является ли ваше устройство смартфоном, планшетом, ноутбуком или другим гаджетом.
+                </p>
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="#0">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="-100 0 512 512">
+                                <path
+                                    d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                <path
+                                    d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 576 512">
+                                <path
+                                    d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                <path
+                                    d="M256 8C119.3 8 8 119.3 8 256s111.3 248 248 248 248-111.3 248-248S392.7 8 256 8zm164 114.4c29.5 36 47.4 82 47.8 132-7-1.5-77-15.7-147.5-6.8-5.8-14-11.2-26.4-18.6-41.6 78.3-32 113.8-77.5 118.3-83.5zM396.4 97.9c-3.8 5.4-35.7 48.3-111 76.5-34.7-63.8-73.2-116.2-79-124 67.2-16.2 138 1.3 190.1 47.5zm-230.5-33.3c5.6 7.7 43.4 60.1 78.5 122.5-99.1 26.3-186.4 25.9-195.8 25.8C62.4 147.2 106.7 92.6 165.9 64.6zM44.2 256.3c0-2.2 0-4.3 .1-6.5 9.3 .2 111.9 1.5 217.7-30.1 6.1 11.9 11.9 23.9 17.2 35.9-76.6 21.6-146.2 83.5-180.5 142.3C64.8 360.4 44.2 310.7 44.2 256.3zm81.8 167.1c22.1-45.2 82.2-103.6 167.6-132.8 29.7 77.3 42 142.1 45.2 160.6-68.1 29-150 21.1-212.8-27.9zm248.4 8.5c-2.2-12.9-13.4-74.9-41.2-151 66.4-10.6 124.7 6.8 131.9 9.1-9.4 58.9-43.3 109.8-90.8 142z" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+    </header>
+    <section id="home" class="s-home">
+        <div class="home-content">
+            <div class="home-content__main">
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <h3>Добро пожаловать в Sotics</h3>
+                    <h1>
+                        Место где починят
+                        <br>
+                        Любое ваше устройство
+                        <br>
+                        Проведут бесплатную диагностику
+                        <br>
+                        И профессиональную помощь
+                    </h1>
+                    <div class="home-content__buttons">
+                        <a href="#contact" class="btn">Записаться</a>
+                        <a href="#about" class="btn">Узнать больше</a>
+                    </div>
                 </div>
-                <div class="tips">
-                    <div class="tip1">
-                        <h3>29K+</h3>
-                        <p>Artworks</p>
+
+            </div>
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link">
+                    <span>Листай ниже</span>
+                </a>
+                <div class="home-content__line"></div>
+            </div>
+        </div>
+        <ul class="home-social">
+            <li>
+                <a href="#0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="-100 0 512 512">
+                        <path
+                            d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                    </svg>
+                </a>
+                <span>Facebook</span>
+            </li>
+            <li>
+                <a href="#0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                        <path
+                            d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                    </svg>
+                </a>
+                <span>Twiiter</span>
+            </li>
+            <li>
+                <a href="#0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </a>
+                <span>Instagram</span>
+            </li>
+            <li>
+                <a href="#0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 576 512">
+                        <path
+                            d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
+                    </svg>
+                </a>
+                <span>Behance</span>
+            </li>
+            <li>
+                <a href="#0">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                        <path
+                            d="M256 8C119.3 8 8 119.3 8 256s111.3 248 248 248 248-111.3 248-248S392.7 8 256 8zm164 114.4c29.5 36 47.4 82 47.8 132-7-1.5-77-15.7-147.5-6.8-5.8-14-11.2-26.4-18.6-41.6 78.3-32 113.8-77.5 118.3-83.5zM396.4 97.9c-3.8 5.4-35.7 48.3-111 76.5-34.7-63.8-73.2-116.2-79-124 67.2-16.2 138 1.3 190.1 47.5zm-230.5-33.3c5.6 7.7 43.4 60.1 78.5 122.5-99.1 26.3-186.4 25.9-195.8 25.8C62.4 147.2 106.7 92.6 165.9 64.6zM44.2 256.3c0-2.2 0-4.3 .1-6.5 9.3 .2 111.9 1.5 217.7-30.1 6.1 11.9 11.9 23.9 17.2 35.9-76.6 21.6-146.2 83.5-180.5 142.3C64.8 360.4 44.2 310.7 44.2 256.3zm81.8 167.1c22.1-45.2 82.2-103.6 167.6-132.8 29.7 77.3 42 142.1 45.2 160.6-68.1 29-150 21.1-212.8-27.9zm248.4 8.5c-2.2-12.9-13.4-74.9-41.2-151 66.4-10.6 124.7 6.8 131.9 9.1-9.4 58.9-43.3 109.8-90.8 142z" />
+                    </svg>
+                </a>
+                <span>Dribbble</span>
+            </li>
+        </ul>
+    </section>
+    <section id="about" class="s-about">
+        <div data-aos="fade-up" data-aos-duration="1000" class="row row-1 section-header">
+            <div class="col-full">
+                <h3>Вас привествует</h3>
+                <h1>Sotics</h1>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="about-desc">
+            <div class="col-full">
+                <p>"7 Лет Опыта: Ваш Надежный Партнер в Ремонте Телефонов
+
+                    Профессиональный ремонт телефонов с гарантией качества и надежности. Наша команда специалистов
+                    готова помочь вам в восстановлении вашего устройства. Лучшие условия для клиентов - быстрое
+                    обслуживание, доступные цены и высокий стандарт работы. Доверьте нам свой телефон - и наслаждайтесь
+                    бесперебойной работой вашего устройства."</p>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="about-stats">
+            <div class="col-block">
+                <div id="id_ladder" class="stats__count">1</div>
+                <h5>Сервисный центр</h5>
+            </div>
+            <div class="col-block">
+                <div id="id_ladder" class="stats__count">1505</div>
+                <h5>Аппаратов починено</h5>
+            </div>
+            <div class="col-block">
+                <div id="id_ladder" class="stats__count">1490</div>
+                <h5>Довольных Клиентов</h5>
+            </div>
+            <div class="col-block">
+                <div id="id_ladder" class="stats__count">150</div>
+                <h5>Клиентов в месяц</h5>
+            </div>
+        </div>
+        <div class="about__line"></div>
+    </section>
+    <section id="services" class="s-services">
+        <div data-aos="fade-up" data-aos-duration="1000" class="row row-1 section-header">
+            <div class="col-full">
+                <h3 class="subhead">ЧТО МЫ ДЕЛАЕМ</h3>
+                <h1 class="display-2">Помогаем вам с вашими устройствами в починке и обслуживание</h1>
+            </div>
+        </div>
+        <div class="services-list">
+            <div data-aos="fade-up" data-aos-duration="1000" class="services-box">
+                <div class="service-icon">
+                    <img src="./images/icon/paint-brush.svg">
+                </div>
+                <div class="service-text">
+                    <h3>Бесплатная диагностика</h3>
+                    <p>Наши услуги включают бесплатную диагностику вашего устройства, чтобы выявить любые проблемы, с
+                        которыми оно может столкнуться. Наша опытная команда специалистов проведет тщательную проверку
+                        вашего устройства, поможет определить причину неисправности и предложит наилучшие решения для ее
+                        устранения. Не тратьте время на догадки - доверьте нашим профессионалам и получите точную
+                        диагностику уже сегодня</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="services-box">
+                <div class="service-icon">
+                    <img src="./images/icon/group-objects.svg">
+                </div>
+                <div class="service-text">
+                    <h3>Ремонт любой модели</h3>
+                    <p>Мы гарантируем качественный ремонт для всех моделей устройств. Независимо от того, является ли
+                        ваше устройство смартфоном, планшетом, ноутбуком или другим гаджетом, наша команда специалистов
+                        обладает опытом и знаниями, чтобы вернуть ваше устройство к идеальному состоянию. Доверьте нам
+                        свою технику - мы сделаем все возможное, чтобы она работала как новая</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="services-box">
+                <div class="service-icon">
+                    <img src="./images/icon/megaphone.svg">
+                </div>
+                <div class="service-text">
+                    <h3>Лучшие специалисты</h3>
+                    <p>Наша команда состоит из опытных и квалифицированных специалистов, которые обладают глубокими
+                        знаниями и навыками в сфере ремонта техники. Мы постоянно совершенствуемся и следим за
+                        последними тенденциями в отрасли, чтобы предоставить вам высочайший уровень обслуживания.
+                        Доверьтесь нашим специалистам - и ваше устройство будет в лучших руках</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="services-box">
+                <div class="service-icon">
+                    <img src="./images/icon/earth.svg">
+                </div>
+                <div class="service-text">
+                    <h3>Гарантия качества</h3>
+                    <p>Мы уверены в качестве наших услуг, поэтому предоставляем гарантию на весь проведенный ремонт.
+                        Наша цель - ваше полное удовлетворение результатом. Если в течение гарантийного срока возникнут
+                        проблемы, мы с удовольствием их исправим без дополнительной оплаты. Доверьте ваше устройство нам
+                        - и наслаждайтесь надежным ремонтом и качественным сервисом!</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="services-box">
+                <div class="service-icon">
+                    <img src="./images/icon/cube.svg">
+                </div>
+                <div class="service-text">
+                    <h3>Оригинальные детали</h3>
+                    <p>Мы используем только оригинальные детали при ремонте вашего устройства, чтобы обеспечить
+                        максимальную долговечность и надежность работы. Мы понимаем важность качественных комплектующих
+                        для безупречного функционирования вашего гаджета. Полагаясь на наших поставщиков, мы
+                        гарантируем, что ваше устройство будет восстановлено с использованием только самых лучших и
+                        оригинальных запчастей.</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="1000" class="services-box">
+                <div class="service-icon">
+                    <img src="./images/icon/lego-block.svg">
+                </div>
+                <div class="service-text">
+                    <h3>Быстрое обслуживание</h3>
+                    <p>Мы понимаем, что ваше время ценно, поэтому обеспечиваем быстрое и эффективное обслуживание
+                        каждого клиента. Наша команда готова к быстрому реагированию на ваши потребности и оперативному
+                        решению проблем с вашим устройством. Мы стремимся к минимальным срокам ремонта, не ущемляя при
+                        этом качество работы. Доверьтесь нам, и ваше устройство будет восстановлено в кратчайшие сроки
+                        без потери качества!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="works" class="s-works">
+        <div data-aos="fade-up" data-aos-duration="1000" class="intro-wrap">
+            <div class="row row-1 works-header">
+                <div class="col-full">
+                    <h3 class="subhead">ЧТО МЫ ЧИНИМ</h3>
+                    <h1 class="display-2">Профессиональный сервис техники: Мы специализируемся на ремонте современных
+                        устройств, включая:</h1>
+                </div>
+            </div>
+        </div>
+        <div data-aos="fade-up" data-aos-duration="1000" class="row works-content">
+            <div class="col-full">
+                <div class="masonry">
+                    <div class="masonry__brick">
+                        <div class="item-folio">
+                            <div class="item-folio__thumb">
+                                <a class="item-a" href="">
+                                    <img src="./images/foto/g1-shutterbug.jpg">
+                                </a>
+                                <div class="item-folio__text">
+                                    <h3>Телефоны</h3>
+                                    <p>Branding</p>
+                                </div>
+                                <a class="item-folio__project-link" href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                        <path
+                                            d="M326.6 185.4c59.7 59.8 58.9 155.7 .4 214.6-.1 .1-.2 .3-.4 .4l-67.2 67.2c-59.3 59.3-155.7 59.3-215 0-59.3-59.3-59.3-155.7 0-215l37.1-37.1c9.8-9.8 26.8-3.3 27.3 10.6 .6 17.7 3.8 35.5 9.7 52.7 2 5.8 .6 12.3-3.8 16.6l-13.1 13.1c-28 28-28.9 73.7-1.2 102 28 28.6 74.1 28.7 102.3 .5l67.2-67.2c28.2-28.2 28.1-73.8 0-101.8-3.7-3.7-7.4-6.6-10.3-8.6a16 16 0 0 1 -6.9-12.6c-.4-10.6 3.3-21.5 11.7-29.8l21.1-21.1c5.5-5.5 14.2-6.2 20.6-1.7a152.5 152.5 0 0 1 20.5 17.2zM467.5 44.4c-59.3-59.3-155.7-59.3-215 0l-67.2 67.2c-.1 .1-.3 .3-.4 .4-58.6 58.9-59.4 154.8 .4 214.6a152.5 152.5 0 0 0 20.5 17.2c6.4 4.5 15.1 3.8 20.6-1.7l21.1-21.1c8.4-8.4 12.1-19.2 11.7-29.8a16 16 0 0 0 -6.9-12.6c-2.9-2-6.6-4.9-10.3-8.6-28.1-28.1-28.2-73.6 0-101.8l67.2-67.2c28.2-28.2 74.3-28.1 102.3 .5 27.8 28.3 26.9 73.9-1.2 102l-13.1 13.1c-4.4 4.4-5.8 10.8-3.8 16.6 5.9 17.2 9 35 9.7 52.7 .5 13.9 17.5 20.4 27.3 10.6l37.1-37.1c59.3-59.3 59.3-155.7 0-215z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tip2">
-                        <h3>18K+</h3>
-                        <p>Artists</p>
+                    <div class="masonry__brick">
+                        <div class="item-folio">
+                            <div class="item-folio__thumb">
+                                <a class="item-a" href="">
+                                    <img src="./images/foto/g2-beetle.jpg">
+                                </a>
+                                <div class="item-folio__text">
+                                    <h3>Планшеты</h3>
+                                    <p>Branding</p>
+                                </div>
+                                <a class="item-folio__project-link" href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                        <path
+                                            d="M326.6 185.4c59.7 59.8 58.9 155.7 .4 214.6-.1 .1-.2 .3-.4 .4l-67.2 67.2c-59.3 59.3-155.7 59.3-215 0-59.3-59.3-59.3-155.7 0-215l37.1-37.1c9.8-9.8 26.8-3.3 27.3 10.6 .6 17.7 3.8 35.5 9.7 52.7 2 5.8 .6 12.3-3.8 16.6l-13.1 13.1c-28 28-28.9 73.7-1.2 102 28 28.6 74.1 28.7 102.3 .5l67.2-67.2c28.2-28.2 28.1-73.8 0-101.8-3.7-3.7-7.4-6.6-10.3-8.6a16 16 0 0 1 -6.9-12.6c-.4-10.6 3.3-21.5 11.7-29.8l21.1-21.1c5.5-5.5 14.2-6.2 20.6-1.7a152.5 152.5 0 0 1 20.5 17.2zM467.5 44.4c-59.3-59.3-155.7-59.3-215 0l-67.2 67.2c-.1 .1-.3 .3-.4 .4-58.6 58.9-59.4 154.8 .4 214.6a152.5 152.5 0 0 0 20.5 17.2c6.4 4.5 15.1 3.8 20.6-1.7l21.1-21.1c8.4-8.4 12.1-19.2 11.7-29.8a16 16 0 0 0 -6.9-12.6c-2.9-2-6.6-4.9-10.3-8.6-28.1-28.1-28.2-73.6 0-101.8l67.2-67.2c28.2-28.2 74.3-28.1 102.3 .5 27.8 28.3 26.9 73.9-1.2 102l-13.1 13.1c-4.4 4.4-5.8 10.8-3.8 16.6 5.9 17.2 9 35 9.7 52.7 .5 13.9 17.5 20.4 27.3 10.6l37.1-37.1c59.3-59.3 59.3-155.7 0-215z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="tip3">
-                        <h3>25K+</h3>
-                        <p>Auction</p>
+                </div>
+                <div class="masonry">
+                    <div class="masonry__brick">
+                        <div class="item-folio">
+                            <div class="item-folio__thumb">
+                                <a class="item-a" href="">
+                                    <img src="./images/foto/g5-grow-green.jpg">
+                                </a>
+                                <div class="item-folio__text">
+                                    <h3>Ноутбуки</h3>
+                                    <p>Branding</p>
+                                </div>
+                                <a class="item-folio__project-link" href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                        <path
+                                            d="M326.6 185.4c59.7 59.8 58.9 155.7 .4 214.6-.1 .1-.2 .3-.4 .4l-67.2 67.2c-59.3 59.3-155.7 59.3-215 0-59.3-59.3-59.3-155.7 0-215l37.1-37.1c9.8-9.8 26.8-3.3 27.3 10.6 .6 17.7 3.8 35.5 9.7 52.7 2 5.8 .6 12.3-3.8 16.6l-13.1 13.1c-28 28-28.9 73.7-1.2 102 28 28.6 74.1 28.7 102.3 .5l67.2-67.2c28.2-28.2 28.1-73.8 0-101.8-3.7-3.7-7.4-6.6-10.3-8.6a16 16 0 0 1 -6.9-12.6c-.4-10.6 3.3-21.5 11.7-29.8l21.1-21.1c5.5-5.5 14.2-6.2 20.6-1.7a152.5 152.5 0 0 1 20.5 17.2zM467.5 44.4c-59.3-59.3-155.7-59.3-215 0l-67.2 67.2c-.1 .1-.3 .3-.4 .4-58.6 58.9-59.4 154.8 .4 214.6a152.5 152.5 0 0 0 20.5 17.2c6.4 4.5 15.1 3.8 20.6-1.7l21.1-21.1c8.4-8.4 12.1-19.2 11.7-29.8a16 16 0 0 0 -6.9-12.6c-2.9-2-6.6-4.9-10.3-8.6-28.1-28.1-28.2-73.6 0-101.8l67.2-67.2c28.2-28.2 74.3-28.1 102.3 .5 27.8 28.3 26.9 73.9-1.2 102l-13.1 13.1c-4.4 4.4-5.8 10.8-3.8 16.6 5.9 17.2 9 35 9.7 52.7 .5 13.9 17.5 20.4 27.3 10.6l37.1-37.1c59.3-59.3 59.3-155.7 0-215z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="masonry__brick">
+                        <div class="item-folio">
+                            <div class="item-folio__thumb">
+                                <a class="item-a" href="">
+                                    <img src="./images/foto/g6-palmeira.jpg">
+                                </a>
+                                <div class="item-folio__text">
+                                    <h3>Shutterbug</h3>
+                                    <p>Branding</p>
+                                </div>
+                                <a class="item-folio__project-link" href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                        <path
+                                            d="M326.6 185.4c59.7 59.8 58.9 155.7 .4 214.6-.1 .1-.2 .3-.4 .4l-67.2 67.2c-59.3 59.3-155.7 59.3-215 0-59.3-59.3-59.3-155.7 0-215l37.1-37.1c9.8-9.8 26.8-3.3 27.3 10.6 .6 17.7 3.8 35.5 9.7 52.7 2 5.8 .6 12.3-3.8 16.6l-13.1 13.1c-28 28-28.9 73.7-1.2 102 28 28.6 74.1 28.7 102.3 .5l67.2-67.2c28.2-28.2 28.1-73.8 0-101.8-3.7-3.7-7.4-6.6-10.3-8.6a16 16 0 0 1 -6.9-12.6c-.4-10.6 3.3-21.5 11.7-29.8l21.1-21.1c5.5-5.5 14.2-6.2 20.6-1.7a152.5 152.5 0 0 1 20.5 17.2zM467.5 44.4c-59.3-59.3-155.7-59.3-215 0l-67.2 67.2c-.1 .1-.3 .3-.4 .4-58.6 58.9-59.4 154.8 .4 214.6a152.5 152.5 0 0 0 20.5 17.2c6.4 4.5 15.1 3.8 20.6-1.7l21.1-21.1c8.4-8.4 12.1-19.2 11.7-29.8a16 16 0 0 0 -6.9-12.6c-2.9-2-6.6-4.9-10.3-8.6-28.1-28.1-28.2-73.6 0-101.8l67.2-67.2c28.2-28.2 74.3-28.1 102.3 .5 27.8 28.3 26.9 73.9-1.2 102l-13.1 13.1c-4.4 4.4-5.8 10.8-3.8 16.6 5.9 17.2 9 35 9.7 52.7 .5 13.9 17.5 20.4 27.3 10.6l37.1-37.1c59.3-59.3 59.3-155.7 0-215z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="right1">
-                <img src="./imgs/Group 48095504.png" alt="ohoto">
+        </div>
+    </section>
+    <section id="clients" class="s-clients">
+        <div class="row clients-header">
+            <div class="col-full">
+                <h3 class="subhead">Отзывы</h3>
+                <h1 class="display-2">Наша команда профессионалов готова решать любые задачи, а довольные клиенты -
+                    лучшая награда за нашу работу.</h1>
             </div>
-        </section>
-    </main>
+        </div>
+        <div class="clients-testimonials">
+            <div class="swiper swiperClients">
+                <div class="swiper-wrapper">
 
+                    <div class="swiper-slide">
+                        <div class="testimonials__slide">
+                            <p class="testimonials__text">
+                                Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum.
+                                Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam.
+                                Accusantium quos qui praesentium corpori. Excepturi nam cupiditate culpa doloremque
+                                deleniti repellat.
+                            </p>
+                            <img class="testimonials__img" src="./images/users/user-01.jpg">
+                            <div class="testimonials__info">
+                                <span class="testimonials__name">Tim Cook</span>
+                                <span class="testimonials__pos">CEO, Microsoft</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials__slide">
+                            <p class="testimonials__text">
+                                Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat
+                                voluptas animi adipisci. Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque
+                                eos maxime. Qui ipsam temporibus quisquam vel.
+                            </p>
+                            <img class="testimonials__img" src="./images/users/user-02.jpg">
+                            <div class="testimonials__info">
+                                <span class="testimonials__name">Sundar Pichai</span>
+                                <span class="testimonials__pos">CEO, Google</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="testimonials__slide">
+                            <p class="testimonials__text">
+                                Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia
+                                nesciunt. Ducimus aut sed ipsam. Autem eaque officia cum exercitationem sunt voluptatum
+                                accusamus. Quasi voluptas eius distinctio.
+                            </p>
+                            <img class="testimonials__img" src="./images/users/user-03.jpg">
+                            <div class="testimonials__info">
+                                <span class="testimonials__name">Satya Nadella</span>
+                                <span class="testimonials__pos">CEO, Microsoft</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn_left swiper-button-prev2"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path
+                        d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+                </svg></button>
+            <button class="btn btn_right swiper-button-next2"><svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512">
+                    <path
+                        d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+                </svg></button>
+        </div>
+    </section>
+    <section id="contact" class="s-contact">
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+        <div class="row row-1 contact-header">
+            <div class="col-full">
+                <h3 class="subhead">СВЯЖИТЕСЬ С НАМИ</h3>
+                <h1 class="display-2">Оставьте заявку по форме и мы быстро свяжемся и поможем вам!</h1>
+            </div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-primary">
+                <h3>Оставьте заявку</h3>
+                <form name="contactForm" id="contactForm" class="contactForm" action="#">
+                    <fieldset>
+                        <div class="form-field">
+                            <input name="contactName" id="contactName" class="contactName" type="text"
+                                placeholder="Ваше имя">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactEmail" id="contactEmail" class="contactEmail" type="email"
+                                placeholder="Ваша почта">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactSubject" id="contactSubject" class="contactSubject" type="text"
+                                placeholder="Номер телеофна">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="contactMessage" id="contactMessage" class="contactMessage" cols="50"
+                                rows="10" placeholder="С чем вы столкнулись"></textarea>
+                            <!-- <input name="contactMessage" id="contactMessage" class="contactMessage" type="text" placeholder="Your Message"> -->
+                        </div>
+                        <div class="form-field">
+                            <button class="btn" type="submit">Отправить</button>
+                        </div>
+
+                    </fieldset>
+                </form>
+                <div class="message-warning">Something went wrong. Please try again.</div>
+                <div class="message-success">Your message was sent, thank you!</div>
+            </div>
+            <div class="contact-secondary">
+                <div class="contact-info">
+                    <h3>Контактная информация</h3>
+                    <div class="cinfo">
+                        <h5>Наш Адресс</h5>
+                        <p>
+                            Метро Тимирьязевская
+                            <br>
+                            Ул. Яблочкова д. 19г
+                            <br>
+                            ТЦ "Депо Молл" 1 эт, пав. А 1/4
+                        </p>
+                    </div>
+                    <div class="cinfo">
+                        <h5>Электронная почта</h5>
+                        <p>
+                            <a href="mailto:sotics_remont_telefonov@mail.ru">sotics_remont_telefonov@mail.ru</a>
+                        </p>
+                    </div>
+                    <div class="cinfo">
+                        <h5>Телефон</h5>
+                        <p>
+                            <a href="tel:+74953691144">+7(495)-369-11-44</a>
+                        </p>
+                    </div>
+                    <ul class="header-nav__social">
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="-100 0 512 512">
+                                    <path
+                                        d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                    <path
+                                        d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103v-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 448 512">
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 576 512">
+                                    <path
+                                        d="M232 237.2c31.8-15.2 48.4-38.2 48.4-74 0-70.6-52.6-87.8-113.3-87.8H0v354.4h171.8c64.4 0 124.9-30.9 124.9-102.9 0-44.5-21.1-77.4-64.7-89.7zM77.9 135.9H151c28.1 0 53.4 7.9 53.4 40.5 0 30.1-19.7 42.2-47.5 42.2h-79v-82.7zm83.3 233.7H77.9V272h84.9c34.3 0 56 14.3 56 50.6 0 35.8-25.9 47-57.6 47zm358.5-240.7H376V94h143.7v34.9zM576 305.2c0-75.9-44.4-139.2-124.9-139.2-78.2 0-131.3 58.8-131.3 135.8 0 79.9 50.3 134.7 131.3 134.7 61.3 0 101-27.6 120.1-86.3H509c-6.7 21.9-34.3 33.5-55.7 33.5-41.3 0-63-24.2-63-65.3h185.1c.3-4.2 .6-8.7 .6-13.2zM390.4 274c2.3-33.7 24.7-54.8 58.5-54.8 35.4 0 53.2 20.8 56.2 54.8H390.4z" />
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#0">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 512 512">
+                                    <path
+                                        d="M256 8C119.3 8 8 119.3 8 256s111.3 248 248 248 248-111.3 248-248S392.7 8 256 8zm164 114.4c29.5 36 47.4 82 47.8 132-7-1.5-77-15.7-147.5-6.8-5.8-14-11.2-26.4-18.6-41.6 78.3-32 113.8-77.5 118.3-83.5zM396.4 97.9c-3.8 5.4-35.7 48.3-111 76.5-34.7-63.8-73.2-116.2-79-124 67.2-16.2 138 1.3 190.1 47.5zm-230.5-33.3c5.6 7.7 43.4 60.1 78.5 122.5-99.1 26.3-186.4 25.9-195.8 25.8C62.4 147.2 106.7 92.6 165.9 64.6zM44.2 256.3c0-2.2 0-4.3 .1-6.5 9.3 .2 111.9 1.5 217.7-30.1 6.1 11.9 11.9 23.9 17.2 35.9-76.6 21.6-146.2 83.5-180.5 142.3C64.8 360.4 44.2 310.7 44.2 256.3zm81.8 167.1c22.1-45.2 82.2-103.6 167.6-132.8 29.7 77.3 42 142.1 45.2 160.6-68.1 29-150 21.1-212.8-27.9zm248.4 8.5c-2.2-12.9-13.4-74.9-41.2-151 66.4-10.6 124.7 6.8 131.9 9.1-9.4 58.9-43.3 109.8-90.8 142z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row footer-main">
+            <div class="col-six left">
+                <div class="footer-logo">
+                    <img src="./images/logo-footer2.png">
+                </div>
+                <p>Мастерство в каждой детали. Sotics - надежный партнер в вашем техническом восстановлении.</p>
+            </div>
+            <div class="col-six right">
+                <h4>Экспресс заявка</h4>
+                <p>Если у вас проблемы с нашими услугами, пожалуйста, оставьте свою заявку. Мы свяжемся с вами и решим
+                    вашу проблему.</p>
+                <div class="subscribe-form">
+                    <form id="mc-form" name="mc-form" class="mc-form" action="#">
+                        <input id="mc-email" name="mc-email" type="email" placeholder="Ваш E-mail">
+                        <input type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-bottom">
+            <div class="col-twelve">
+                <span class="sp1">© Сайт создан 2024 году</span>
+                <span class="sp2">Site Template by <a href="https://lcode.uz/ru/"> Liberty Code</a></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 6,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var swiperClients = new Swiper(".swiperClients", {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination2",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next2",
+                prevEl: ".swiper-button-prev2",
+            },
+        });
+    </script>
+    <script src="./main.js"></script>
 </body>
 
 </html>

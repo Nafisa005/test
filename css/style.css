@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Orbitron", sans-serif;
+}
+
+body {
+    background-color: #010101;
+    background-image: linear-gradient(326deg,#010101 0%,#040008 74%);
+}
+
+
+.container_of_header {
+    width: 88%;
+    margin: auto;
+}
+
+header {
+    max-width: 2250px;
+    margin: auto;
+    width: 88%;
+    margin: auto;
+    position: fixed;
+    top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left0 p {
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.right0 nav {
+    width: 399px;
+    height: 24px;
+}
+
+.right0 nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.right0 nav ul li a {
+    text-decoration: none;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 650px) {
+    .right0 {
+        display: none;
+        background-image: url(../imgs/menu.png) !important;
+
+    }
+}
+
+.sec1 {
+    background-color: red;
+    width: 88%;
+    margin: auto;
+    max-width: 2250px;
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left1 {
+    width: 612px;
+    height: 423px;
+    position: absolute;
+    top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left1 h1 {
+    width: 612px;
+    height: 136px;
+    font-family: Orbitron;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 68px;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.left1 span {
+    font-family: Orbitron;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: 0%;
+    color: purple;
+}
+
+.left1 p {
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.left1 .but {
+    display: flex;
+    width: 362px;
+    height: 54px;
+    justify-content: space-between;
+}
+
+.left1 .but .but1 {
+    width: 173px;
+    height: 54px;
+    gap: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-right: 14px;
+    padding-bottom: 12px;
+    padding-left: 14px;
+    border: none;
+    background-image: linear-gradient(260deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    ;
+    color: #FFFFFF;
+}
+
+.left1 .but .but2 {
+    width: 173px;
+    height: 54px;
+    border-radius: 5px;
+    background-color: #07182e;
+    color: #FFFFFF;
+}
+
+.left1 .but .but2::before {
+    content: "";
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    animation: RotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+}
+
+@keyframes RotBGimg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.left1 .but .but2::after {
+    content: "";
+    background-color: #07182e;
+    inset: 5px;
+    border-radius: 5px;
+}
+
+.tips {
+    width: 344px;
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tips h3 {
+    font-family: Orbitron;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+}
+
+.right1 {
+    position: absolute;
+    left: 50%;
+}
